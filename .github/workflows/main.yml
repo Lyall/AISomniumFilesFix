@@ -10,21 +10,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v2
 
-    - name: Download MelonLoader
+    - name: Download BepInEx
       uses: robinraju/release-downloader@v1.2
       with:
-          repository: "LavaGang/MelonLoader"
+          repository: "BepInEx/BepInEx"
           latest: true
-          fileName: "MelonLoader.x64.zip"
+          fileName: "*"
 
     - uses: actions/setup-dotnet@v1
-    - run: mkdir -p ${{ github.event.repository.name }}/Mods
+    - run: mkdir -p ${{ github.event.repository.name }}/BepInEx/plugins
     - run: dotnet build -c Release -o build
-    - run: cp build/${{ github.event.repository.name }}.dll ${{ github.event.repository.name }}/Mods/${{ github.event.repository.name }}.dll
-    - run: unzip MelonLoader.x64.zip -d ${{ github.event.repository.name }}
+    - run: cp build/${{ github.event.repository.name }}.dll ${{ github.event.repository.name }}/BepInEx/plugins/${{ github.event.repository.name }}.dll
+    - run: unzip BepInEx_x64* -d ${{ github.event.repository.name }}
     - run: touch ${{ github.event.repository.name }}/EXTRACT_TO_GAME_DIRECTORY
     - run: cd ${{ github.event.repository.name }}; zip -r ../${{ github.event.repository.name }}_${{ github.event.inputs.version }}.zip ./*
     - uses: ncipollo/release-action@v1
