@@ -5,6 +5,7 @@
 This BepInEx plugin for the game **AI: THE SOMNIUM FILES** adds support for:
 - Playing the game in any ultrawide aspect ratio such as 21:9, 32:9 or even higher.
 - Fixing various UI issues caused by running at unsupported resolutions.
+- Automatic FPS capping during somnium scenes. ([PCGW article.](https://www.pcgamingwiki.com/wiki/AI:_The_Somnium_Files#Visual_artifacts_in_somnium_scenes))
 - Setting an arbitrary resolution.
 
 ## Installation
