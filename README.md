@@ -11,7 +11,7 @@ This WIP BepInEx plugin for the game **AI: THE SOMNIUM FILES** adds support for:
 ## Installation
 - Grab the [latest release of AISomniumFilesFix.](https://github.com/Lyall/AISomniumFilesFix/releases)
 - Extract the contents of the **AISomniumFilesFix** zip to the **game directory**.
-- Run the game. It may take a little while on the first boot as MelonLoader does it's magic.
+- Run the game.
 
 ## Configuration
 - See the generated config file **AISomniumFilesFix.cfg** in the **Mod** folder to adjust various aspects of the mod.
