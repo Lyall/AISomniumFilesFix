@@ -20,7 +20,7 @@ This WIP BepInEx plugin for the game **AI: THE SOMNIUM FILES** adds support for:
 Please report any issues you see and I'll do my best to fix them.
 
 ## Screenshots
-
+![ezgif-5-0ee8d90fe6](https://user-images.githubusercontent.com/695941/178378798-bf0cd20f-8501-4e79-9892-aa121edad762.gif)
 
 ## Credits
 - [MelonLoader](https://github.com/LavaGang/MelonLoader) is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/LavaGang/MelonLoader/blob/master/LICENSE.md) for the full License.
