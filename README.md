@@ -18,6 +18,7 @@ This WIP BepInEx plugin for the game **AI: THE SOMNIUM FILES** adds support for:
 
 ## Known Issues
 Please report any issues you see and I'll do my best to fix them.
+- This fix is very much a work-in-progress. It may break or fail to function in certain scenes.
 
 ## Screenshots
 ![ezgif-5-0ee8d90fe6](https://user-images.githubusercontent.com/695941/178378798-bf0cd20f-8501-4e79-9892-aa121edad762.gif)
