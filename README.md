@@ -2,7 +2,7 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W01UAI9)</br>
 [![Github All Releases](https://img.shields.io/github/downloads/Lyall/AISomniumFilesFix/total.svg)]()
 
-This BepInEx plugin for the game **AI: THE SOMNIUM FILES** adds support for:
+This WIP BepInEx plugin for the game **AI: THE SOMNIUM FILES** adds support for:
 - Playing the game in any ultrawide aspect ratio such as 21:9, 32:9 or even higher.
 - Fixing various UI issues caused by running at unsupported resolutions.
 - Automatic FPS capping during somnium scenes. ([PCGW article.](https://www.pcgamingwiki.com/wiki/AI:_The_Somnium_Files#Visual_artifacts_in_somnium_scenes))
